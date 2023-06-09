@@ -1,0 +1,20 @@
+[
+    {
+        "school": "Boston University",
+        "major": "Software Development",
+        "type": "MS",
+        "year conferred": "2023"
+    },
+    {
+        "school": "University of Washington",
+        "major": "Business",
+        "type": "MBA",
+        "year conferred": "2021"
+    },
+    {
+        "school": "Hansung University",
+        "major": "Merchandising",
+        "type": "BA",
+        "year conferred": "2004"
+    }
+]
