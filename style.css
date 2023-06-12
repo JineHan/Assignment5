@@ -1,0 +1,264 @@
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #studyButton {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button {
+    background-color: #2e2b2b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin:10px;
+  }
+  
+  #buttonContainer {
+    color: #811717;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+  #resultContainer {
+    color: #250c0c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10%;
+
+  }
+
+  button:hover {
+    background-color: #ee8282;
+  }
+
+  #studyButton:hover {
+    background-color: #ee8282;
+  }
+
+  #resultContainer {
+    margin-bottom: 20px;
+  }
+
+  p{
+    font-size: 16px
+  }
+
+  #resumeMessage {
+    display: none; /* Initially hide the h3 element */
+  }
+
+
+
+/* resume*/
+
+.resume {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: left;
+    
+  }
+  
+  .resume h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    padding: 1px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .resume h3 {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .resume h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    padding: 1px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 1, 0.2);
+  }
+  
+  .resume h4{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #363636;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  flex-direction: row;
+  }
+  
+  .timeline {
+    position: relative;
+  }
+  
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    width: 2px;
+    background-color: #888;
+    margin-left: -1px;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .timeline-content {
+    margin-left: 70px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline-content li{
+    padding: 1px;
+    margin-bottom: 3px;
+    
+  }
+  
+  
+  .timeline h4 {
+    margin-top: 0;
+    margin-bottom: 1px;
+  }
+  
+  .timeline h5 {
+    margin-top: 0px;
+    color: #888;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  .timeline p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  
+  .skills-list li {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  h4,h7:not(:last-child)::after {
+    content: ",";
+    margin-right: 5px;
+    margin-left: 0px;
+  }
+  
+  .resume h7{
+    font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #363636;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  #education {
+    margin-left: 70px;
+    display: flex;
+  }
+  
+  #title1, #title2, #title3{
+    margin-top: 0px;
+    color: #888;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-left: 10px;
+  }
+
+  #row {
+    margin-left: 0px;
+  }
+  
+  
+  
+  
+  
+
+
+  

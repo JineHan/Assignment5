@@ -1,20 +1,22 @@
 [
     {
+        "degree" : "Masters in Software Development (MS)",
         "school": "Boston University",
-        "major": "Software Development",
-        "type": "MS",
-        "year conferred": "2023"
+        "location": "MA",
+        "year": "2023"
     },
     {
+        "degree" : "Masters in Business Administration (MBA)",
         "school": "University of Washington",
-        "major": "Business",
-        "type": "MBA",
-        "year conferred": "2021"
+        "location": "WA",
+        "year": "2021"
+       
     },
     {
+        "degree" : "Fashion Business (BA)",
         "school": "Hansung University",
-        "major": "Merchandising",
-        "type": "BA",
-        "year conferred": "2004"
+        "location": "Seoul, Korea",
+        "year": "2008"
+
     }
 ]
